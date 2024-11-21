@@ -1,0 +1,17 @@
+[package]
+name = "Proyecto3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nalgebra-glm = "0.15.0"       
+noise = "0.8.1"             
+image = "0.24.6"             
+rand = "0.8.5"              
+log = "0.4.20"
+env_logger = "0.10.0"
+cgmath = "0.18"     
+minifb = "0.22"      
+wgpu = "0.13"
+wgpu-hal = "0.13.1"
+winapi = { version = "0.3", features = ["winbase"] }
